@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage"
+    >
+
+
+    <Button
+        android:id="@+id/contribute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="172dp"
+        android:backgroundTint="#65B38B"
+        android:bottomLeftRadius="8dp"
+        android:bottomRightRadius="8dp"
+        android:fontFamily="@font/biryani_extralight"
+        android:text="@string/contribute_button"
+        android:textColor="@color/white"
+        android:topLeftRadius="8dp"
+        android:topRightRadius="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/path"
+        android:layout_width="130dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#65B38B"
+        android:bottomLeftRadius="8dp"
+        android:bottomRightRadius="8dp"
+        android:fontFamily="@font/biryani_extralight"
+        android:text="@string/path_button"
+        android:textColor="@color/white"
+        android:topLeftRadius="8dp"
+        android:topRightRadius="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explore" />
+
+    <Button
+        android:id="@+id/explore"
+        android:layout_width="141dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#65B38B"
+        android:bottomLeftRadius="8dp"
+        android:bottomRightRadius="8dp"
+        android:fontFamily="@font/biryani_extralight"
+        android:text="@string/explore_button"
+        android:textColor="@color/white"
+        android:topLeftRadius="8dp"
+        android:topRightRadius="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contribute" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/biryani_bold"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#4C8166"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

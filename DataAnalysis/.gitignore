@@ -1,0 +1,5 @@
+data/data.csv
+data/data_preprocessed.csv
+.idea/
+.ipynb_checkpoints
+.vscode/
