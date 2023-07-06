@@ -21,5 +21,6 @@ The project is organized as follows:
 - DataCollection/ contains the Android source code of the application dedicated to the data collection.
 - DataAnalysis/ contains the Python scripts used for analyzing the data and using different machine learning techniques.
 - AndroidApplication/ contains the Android source code of the main Android application providing all the required features.
+  
 Each folder will contain a readMe file explaining more in detail each of the modules.
 <br>A SQL file is also present for re-creating the structure of the database.
