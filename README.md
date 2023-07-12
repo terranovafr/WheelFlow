@@ -5,7 +5,7 @@ Users can search for a path from a source to a destination and receive accessibi
 The core of the application is the collection of vibration data based on crowdsourcing: route contributor users can collect data using their smartphone while they are on the move and share it with a web server responsible for classifying the data and handling the routing requests.<br>
 **Machine Learning** techniques will enable the smart application to classify routes as accessible or not.
 <p align="center"><img width="720" alt="Screenshot 2023-07-05 alle 20 39 28" src="https://github.com/terranovaa/WheelFlow/assets/61695945/94717edc-13b6-4f4b-9564-3fc1ecf4ae6f"></p>
-
+ 
  ## Project Architecture
  The architecture is composed of a Python server and two Android Client applications.
  <ul>
